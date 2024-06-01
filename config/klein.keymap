@@ -42,16 +42,16 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp PG_UP PG_DN>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav_layer {
             bindings = <
-&trans    &trans    &trans     &trans       &trans    &kp LC(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LC(RIGHT)  &kp K_PASTE
-&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT    &trans    &kp PAGE_UP           &kp LEFT                  &kp UP                     &kp RIGHT      &trans
-&trans    &trans    &trans     &trans       &trans    &kp PAGE_DOWN         &kp HOME                  &kp DOWN                   &kp PG_DN      &kp END
-&trans    &trans    &trans     &bootloader                                  &bt BT_NXT                &kp RET                    &kp BKSP       &kp DEL
+&trans    &trans    &trans     &trans       &trans    &kp LC(LEFT)   &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LC(RIGHT)  &kp K_PASTE
+&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT    &trans    &kp PAGE_UP    &kp LEFT                  &kp UP                     &kp RIGHT      &trans
+&trans    &trans    &trans     &trans       &trans    &kp PAGE_DOWN  &kp HOME                  &kp DOWN                   &kp PG_DN      &kp END
+&trans    &trans    &trans     &bootloader                           &bt BT_NXT                &kp RET                    &kp BKSP       &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
