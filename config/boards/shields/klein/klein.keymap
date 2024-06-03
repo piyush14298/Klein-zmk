@@ -1,1 +1,1 @@
-#import "../../klein.keymap"
+#include "../../klein.keymap"
