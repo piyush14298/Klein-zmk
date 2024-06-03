@@ -14,8 +14,8 @@
 
 include:
   - board: seeeduino_xiao_ble
-    shield: klein_left
+    shield: klein_left rgbled_adapter
   - board: seeeduino_xiao_ble
-    shield: klein_right
+    shield: klein_right rgbled_adapter
   - board: seeeduino_xiao_ble
-    shield: settings_reset
+    shield: settings_reset rgbled_adapter 
