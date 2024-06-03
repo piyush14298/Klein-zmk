@@ -7,12 +7,12 @@ manifest:
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
-    - name: zmk
-      remote: infused-kim
-      revision: my-changes/split-encoder
-      import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
   self:
     path: config
